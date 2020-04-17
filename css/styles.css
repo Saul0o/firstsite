@@ -1,0 +1,179 @@
+/************************ SELETORES *********************************/
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+
+
+h1{
+  margin: 0;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem; /* 40px/16px = 2,5 */
+  color: #66BFBF;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #e9f2f2;
+}
+
+p{
+  margin: 0;
+  line-height: 2;
+}
+
+span{
+  text-decoration: underline;
+}
+
+hr{
+  border-style: dotted none none;
+  border-width: 5px;
+  color: #dae8e8;
+  letter-spacing: 5px;
+
+  width: 5%;
+}
+
+
+/************************ CLASSES *********************************/
+
+.botao{
+  border: 1px;
+  border-radius: 9px;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+  background-color: #66BFBF;
+  color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 2.5;
+  margin-top: 30px;
+  padding: 1px 10px;
+    text-align: center;
+}
+
+.botao:hover{
+  border: 1px;
+  border-radius: 9px;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+  inset -2px -2px 3px rgba(0, 0, 0, .6);
+  background-color: #5cb8b8;
+  color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 2.5;
+  margin-top: 30px;
+  padding: 1px 10px;
+  text-align: center;
+
+}
+
+.middle-container{
+  padding-top: 50PX;
+}
+
+.top-cont{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.perfil{
+  height: 150px;
+  width: 150px;
+}
+
+.primeiro-paragrafo{
+  font-weight: normal;
+}
+
+.paragrafo-middle-container{
+  color: #40514E;
+}
+
+.profile{
+  padding-bottom: 30px;
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row{
+  /*line-height: 2;*/
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.skill-row2{
+/*line-height: 2;*/
+  margin: 100px auto;
+  text-align: right;
+  width: 50%;
+}
+
+
+.skill-row-image1{
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  width: 25%;
+}
+
+.skill-row-image2{
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  width: 25%;
+}
+
+.contact-me{
+  padding-bottom: 50px;
+  width: 40%;
+  margin: 50px auto 30px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding-top: 25px;
+}
+
+.footer-link{
+  padding: 0 20px;
+}
+
+.surname{
+  color: #e9f2f2;
+  font-size: 12px;
+  padding: 20px 0 30px 0;
+}
